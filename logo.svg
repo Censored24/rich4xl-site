@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="4XL">
   <rect width="64" height="64" rx="15" fill="#0b0d0c"/>
-  <rect x="13" y="38" width="7" height="13" rx="3.5" fill="#ffffff" opacity=".45"/>
-  <rect x="23.5" y="31" width="7" height="20" rx="3.5" fill="#ffffff" opacity=".65"/>
-  <rect x="34" y="23" width="7" height="28" rx="3.5" fill="#ffffff" opacity=".85"/>
-  <rect x="44.5" y="13" width="7" height="38" rx="3.5" fill="#2fd08a"/>
+  <g transform="translate(7 22.5) scale(0.49)" fill="none">
+    <path d="M25 37V3L4 27h27" stroke="#ffffff" stroke-width="6.5"/>
+    <path d="M40 3l26 34" stroke="#ffffff" stroke-width="6.5"/>
+    <path d="M40 37L63 7" stroke="#0b0d0c" stroke-width="13"/>
+    <path d="M40 37L63 7" stroke="#2fd08a" stroke-width="6.5"/>
+    <path d="M53 6.25h12.75v12.75" stroke="#2fd08a" stroke-width="6.5"/>
+    <path d="M78 3v30.75h22" stroke="#ffffff" stroke-width="6.5"/>
+  </g>
 </svg>
