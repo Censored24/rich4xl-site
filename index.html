@@ -140,9 +140,10 @@
     .svc:nth-child(2n) { border-left: 0; }
     .svc:nth-child(n+2) { border-top: 1px solid var(--line); }
   }
-  .ic { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; margin-bottom: 22px; color: #fff; }
+  .svc { display: grid; grid-template-columns: 40px 1fr; column-gap: 18px; align-items: start; }
+  .ic { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; color: #fff; grid-row: span 2; }
   .ic svg { width: 22px; height: 22px; }
-  .svc h3 { font: 650 1.3rem/1.2 var(--display); letter-spacing: -0.025em; margin: 0 0 8px; }
+  .svc h3 { font: 650 1.3rem/1.2 var(--display); letter-spacing: -0.025em; margin: 8px 0 8px; }
   .svc p { margin: 0; color: var(--ink-2); max-width: 34ch; }
 
   /* Process */
